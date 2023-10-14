@@ -28,7 +28,7 @@ router.get("/:id" , (req,res) =>{
             editUrl:`/articles/${id}/edit`, //編輯文章頁面
             deleteMethod: "delete",//刪除文章的 Method
             deleteUrl:`/articles/${id}`,//刪除文章的URL
-            js:["article.js"]//載入article.js
+            // js:["article.js"]//載入article.js
         });
     })
     
